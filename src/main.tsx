@@ -6,10 +6,11 @@ import './index.css'
 
 import App from './App.tsx'
 import Home from "./components/Home.tsx";
-import About from "./components/About.tsx";
-import Blog from "./components/Blog.tsx";
-import Projects from "./components/Projects.tsx";
-import CV from "./components/CV.tsx";
+import WIP from './components/WIP.tsx';
+// import About from "./components/About.tsx";
+// import Blog from "./components/Blog.tsx";
+// import Projects from "./components/Projects.tsx";
+// import CV from "./components/CV.tsx";
 
 const router = createBrowserRouter([
     {
@@ -23,19 +24,19 @@ const router = createBrowserRouter([
             },
             {
                 path: '/about',
-                element: <About />
+                element: <WIP />
             },
             {
                 path: '/blog',
-                element: <Blog />
+                element: <WIP />
             },
             {
                 path: '/projects',
-                element: <Projects />
+                element: <WIP />
             },
             {
                 path: '/cv',
-                element: <CV />
+                element: <WIP />
             }
         ]
     }
