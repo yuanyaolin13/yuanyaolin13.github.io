@@ -1,12 +1,10 @@
-import 'react';
+import {Outlet} from "react-router-dom";
 
 function Hero() {
-    return (
-        <>
-            <div className="">
-                EMPTY
-            </div>
-        </>
+    return(
+        <div>
+            <Outlet />
+        </div>
     );
 }
 

@@ -1,17 +1,17 @@
 // Dependencies
-import 'react'
-import './App.css'
+import './App.css';
+
 
 // Components
-import Hero from './components/Hero.tsx'
-import NavBar from './components/NavBar.tsx'
+import NavBar from './components/NavBar.tsx';
+import Hero from './components/Hero.tsx';
 
 
 function App() {
   return (
     <div className="flex flex-col justify-center space-y-4 w-full">
-        <NavBar/>
-        <Hero/>
+        <NavBar />
+        <Hero />
     </div>
   )
 }
