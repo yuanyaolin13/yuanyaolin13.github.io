@@ -3,8 +3,8 @@ import {Link} from "react-router-dom";
 function Footer() {
     return (
         <div className='flex flex-col items-center space-y-2 w-full'>
-            <div className='border-t-2 border-solid border-[rgba(58,69,69,0.25)] w-1/2'>
-                <div className='flex flex-row space-x-4 m-4'>
+            <div className='border-t-2 border-solid border-[rgba(58,69,69,0.25)] w-full md:w-1/2'>
+                <div className='flex flex-row space-x-2 mt-2'>
                     <ul className='text-left pr-4'>
                         <li className='text-xs'>
                             Dean Lin
@@ -13,10 +13,7 @@ function Footer() {
                             cs student @ unc chapel hill
                         </li>
                         <li className='text-xs'>
-                            swe intern @ amazon
-                        </li>
-                        <li className='text-xs'>
-                            frontend dev. :D
+                            frontend dev.
                         </li>
                     </ul>
                     <ul className='text-left'>
