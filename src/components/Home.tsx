@@ -1,9 +1,11 @@
 import 'react'
 
 function Home() {
-    return <div>
-        home
-    </div>
+    return (
+        <>
+            <h1>home page!</h1>
+        </>
+    );
 }
 
 export default Home;

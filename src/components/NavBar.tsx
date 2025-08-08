@@ -4,7 +4,9 @@ function NavBar() {
     return (
         <div className="w-full flex justify-center">
             <div className="w-full md:w-2/3">
-                <div className="text-2xl font-bold">DEAN LIN</div>
+                <Link to='https://www.linkedin.com/in/deanyylin/'>
+                    <div className="text-3xl font-bold">DEAN LIN</div>
+                </Link>
                 <ul className=' flex justify-center space-x-4'>
                     <li>
                         <Link to='/'>home</Link>
