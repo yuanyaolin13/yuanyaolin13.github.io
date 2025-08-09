@@ -22,7 +22,9 @@ function Footer() {
                         </li>
                         <li className='text-xs'>
                             <Link className='text-blue-800 underline' to='https://github.com/yuanyaolin13'>github</Link>
-
+                        </li>
+                        <li className='text-xs '>
+                            deanlindev@gmail.com
                         </li>
                     </ul>
                     <div className='ml-auto flex flex-col items-center'>
@@ -34,7 +36,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className='text-xs font-light opacity-80'>
+                <div className='text-xs font-light opacity-80 pt-2'>
                     © {new Date().getFullYear()} Dean Lin
                 </div>
             </div>
