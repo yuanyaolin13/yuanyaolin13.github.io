@@ -8,8 +8,8 @@ function Home() {
                     <div className='text-lg font-bold'>Hello!</div>
                     <div className='text-sm'>My name is Dean and I am a Computer Science student at the University of North Carolina at Chapel Hill.</div>
                     <br/>
-                    <div className='text-sm'>I am a passionate developer and I am currently experimenting with React and
-                        <a className='text-blue-800 underline' href='https://threejs.org/'> ThreeJS</a>. I am also
+                    <div className='text-sm'>I am a passionate developer and I am currently experimenting with React and&nbsp;
+                        <a className='text-blue-800 underline' href='https://threejs.org/'>ThreeJS</a>. I am also
                         looking into getting into learning more about reinforced learning (and general ML space)!
                     </div>
                     <br/>
