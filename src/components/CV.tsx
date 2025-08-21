@@ -7,11 +7,11 @@ function CV() {
                 <div className='flex flex-col'>
                     <div className='text-lg font-bold'>Amazon</div>
                     <ol className='list-inside list-disc'>
-                        <li className='flex flex-row space-y-2'>
+                        <li className='flex flex-col md:flex-row md:space-y-2'>
                             <div className='list-item'>
-                                Software Engineer Intern
+                                SWE Intern
                             </div>
-                            <div className='ml-auto'>
+                            <div className='italic text-sm  md:ml-auto'>
                                 May 2025 - August 2025
                             </div>
                         </li>
@@ -22,11 +22,11 @@ function CV() {
                             DynamoDB queries with 95% performance improvements and created comprehensive integration
                             with AWS Services (Lambda, Step Functions, DynamoDB, Cloudformation, etc.).
                         </ol>
-                        <li className='flex flex-row space-y-2'>
+                        <li className='flex flex-col md:flex-row md:space-y-2'>
                             <div className='list-item'>
-                                Software Engineer Intern
+                                SWE Intern
                             </div>
-                            <div className='ml-auto'>
+                            <div className='italic text-sm md:ml-auto'>
                                 May 2024 - August 2024
                             </div>
                         </li>
