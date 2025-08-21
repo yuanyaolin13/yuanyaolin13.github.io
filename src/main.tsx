@@ -7,10 +7,11 @@ import './index.css'
 import App from './App.tsx'
 import Home from "./components/Home.tsx";
 import WIP from './components/WIP.tsx';
+// import Projects from "./components/Projects.tsx";
 // import About from "./components/About.tsx";
 // import Blog from "./components/Blog.tsx";
 // import Projects from "./components/Projects.tsx";
-// import CV from "./components/CV.tsx";
+import CV from "./components/CV.tsx";
 
 const router = createBrowserRouter([
     {
@@ -36,7 +37,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/cv',
-                element: <WIP />
+                element: <CV />
             }
         ]
     }

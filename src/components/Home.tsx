@@ -3,7 +3,7 @@ import Pudding from '../assets/pudding.png';
 function Home() {
     return (
         <div className='text-left flex flex-col items-center'>
-            <div className='max-w-[699px] flex flex-col space-y-8 md:flex-row md:space-y-0'>
+            <div className='w-full md:w-[699px] flex flex-col space-y-8 md:flex-row md:space-y-0'>
                 <div className='flex flex-col'>
                     <div className='text-lg font-bold'>Hello!</div>
                     <div className='text-sm'>My name is Dean and I am a Computer Science student at the University of North Carolina at Chapel Hill.</div>
@@ -18,14 +18,14 @@ function Home() {
                     </div>
 
                 </div>
-                <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center md:w-1/2'>
                     <img
                         src={Pudding}
                         alt="Pudding"
-                        className="w-1/2"
+                        className='w-1/3 md:w-full'
                     />
                     <div className='text-xs opacity-80 italic'>
-                        my cat pudding!
+                        my cat pudding
                     </div>
                 </div>
             </div>

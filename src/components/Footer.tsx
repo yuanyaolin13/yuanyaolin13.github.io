@@ -4,13 +4,10 @@ function Footer() {
     return (
         <div className='flex flex-col items-center space-y-2 w-full'>
             <div className='border-t-2 border-solid border-[rgba(58,69,69,0.25)] w-full md:w-1/2'>
-                <div className='flex flex-row space-x-2 mt-2'>
-                    <ul className='text-left pr-4'>
+                <div className='flex flex-row items-center md:items-start space-x-2 mt-2'>
+                    <ul className='text-left md:pr-4'>
                         <li className='text-xs'>
-                            Dean Lin
-                        </li>
-                        <li className='text-xs'>
-                            cs student @ unc chapel hill
+                            cs student @ unc
                         </li>
                         <li className='text-xs'>
                             frontend dev.
@@ -27,13 +24,15 @@ function Footer() {
                             deanlindev@gmail.com
                         </li>
                     </ul>
-                    <div className='ml-auto flex flex-col items-center'>
-                        <div>
-                            swag button
-                        </div>
-                        <div className='text-[0.5rem]'>
-                            (coming soon)
-                        </div>
+                    <div className='ml-auto flex md:pr-4 max-w-[60px] max-h-[50px]'>
+                        {/*<div>*/}
+                        {/*    swag button*/}
+                        {/*</div>*/}
+                        {/*<div className='text-[0.5rem]'>*/}
+                        {/*    (coming soon)*/}
+                        {/*</div>*/}
+
+                        <Link to='/'><img src='./icon.png'></img></Link>
                     </div>
                 </div>
                 <div className='text-xs font-light opacity-80 pt-2'>
