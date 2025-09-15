@@ -9,7 +9,7 @@ function NavBar() {
                 <Link to='https://www.linkedin.com/in/deanyylin/'>
                     <div className="text-3xl font-bold">DEAN LIN</div>
                 </Link>
-                <ul className=' flex justify-center space-x-4'>
+                <ul className='flex justify-center space-x-4'>
                     <li>
                         <Link
                             to='/'
