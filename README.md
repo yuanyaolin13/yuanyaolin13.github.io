@@ -1,4 +1,4 @@
 # Dean Lin Personal Website
-Made w/ React & TailwindCSS
+Made w/ React
 
 Deployment onto gh-pages: `npm run deploy`
