@@ -11,9 +11,9 @@ import {Outlet} from "react-router-dom";
 function App() {
   return (
     <div className="flex flex-col justify-center space-y-4 w-full">
-        <NavBar />
-        <Outlet />
-        <Footer />
+      <NavBar/>
+      <Outlet/>
+      <Footer/>
     </div>
   )
 }

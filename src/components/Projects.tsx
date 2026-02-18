@@ -1,7 +1,7 @@
 import 'react';
 
 function Projects() {
-    return <>projects</>
+  return <>projects</>
 }
 
 export default Projects;

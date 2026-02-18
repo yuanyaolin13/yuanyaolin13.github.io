@@ -3,7 +3,7 @@ import {Outlet} from "react-router-dom";
 function Hero() {
     return(
         <div>
-            <Outlet />
+          <Outlet/>
         </div>
     );
 }

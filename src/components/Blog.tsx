@@ -1,7 +1,7 @@
 import 'react'
 
 function Blog() {
-    return <>blog</>
+  return <>blog</>
 }
 
 export default Blog;
