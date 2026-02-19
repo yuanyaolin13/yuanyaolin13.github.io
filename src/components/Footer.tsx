@@ -16,14 +16,13 @@ function Footer() {
           <ul className='text-left'>
             <li className='text-xs'>
               <Link className='text-blue-800 underline'
-                    to='https://www.linkedin.com/in/deanyylin/'>linkedin</Link>
-            </li>
-            <li className='text-xs'>
+                    to='https://www.linkedin.com/in/deanyylin/'>linkedin
+              </Link> |&nbsp;
               <Link className='text-blue-800 underline'
                     to='https://github.com/yuanyaolin13'>github</Link>
             </li>
             <li className='text-xs '>
-              deanlindev@gmail.com
+              deanlindev [at] gmail.com
             </li>
           </ul>
           <div className='ml-auto flex md:pr-4 max-w-[60px] max-h-[50px]'>

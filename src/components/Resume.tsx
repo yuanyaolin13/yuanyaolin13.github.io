@@ -3,10 +3,21 @@ import {Link} from 'react-router-dom'
 function Resume() {
   return (
     <div className='text-left flex flex-col items-center'>
-      <div className='w-full md:w-[699px] flex flex-col space-y-4 md:flex-row md:space-y-0'>
+      <div className='w-full flex flex-col space-y-4 md:flex-row md:space-y-0 md:max-w-2/3'>
         <div className='flex flex-col'>
           <div className='text-lg font-bold'>Amazon</div>
           <ol className='list-inside list-disc'>
+            <li className='flex flex-col md:flex-row md:space-y-2'>
+              <div className='list-item'>
+                Software Developer Engineer
+              </div>
+              <div className='italic text-sm  md:ml-auto'>
+                June 2026 - present
+              </div>
+            </li>
+            <ol className='border-l-2 p-2 ml-[0.1rem] border-[rgba(58,69,69,0.50)]'>
+              Amazon Security Team!
+            </ol>
             <li className='flex flex-col md:flex-row md:space-y-2'>
               <div className='list-item'>
                 SWE Intern
