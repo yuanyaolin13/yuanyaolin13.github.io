@@ -1,4 +1,5 @@
 # Dean Lin Personal Website
-Made w/ React
 
-Deployment onto gh-pages: `npm run deploy`
+Made with basic React + TailwindCSS :D
+
+Visit the live site at [https://deanlin.dev/](https://deanlin.dev/)
