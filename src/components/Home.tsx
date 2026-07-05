@@ -41,7 +41,7 @@ function Home() {
           <img
             src={Pudding}
             alt="Pudding"
-            className='w-2/3 md:w-full transform hover:scale-125'
+            className='w-2/3 md:w-full transform hover:scale-125 hover:rotate-12 duration-300 ease-in-out'
           />
           <div className='text-sm md:text-xs opacity-80 italic'>
             my cat pudding

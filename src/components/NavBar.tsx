@@ -25,6 +25,14 @@ function NavBar() {
             >
               resume
             </Link>
+          </li> 
+          <li>
+            <Link
+              to='equipment'
+              className={location.pathname === "/equipment" ? "font-semibold underline" : "hover:font-semibold hover:underline"}
+            >
+              equipment
+            </Link>
           </li>
         </ul>
       </div>

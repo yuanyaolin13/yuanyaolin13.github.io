@@ -7,6 +7,7 @@ import './index.css'
 import App from './App.tsx'
 import Home from "./components/Home.tsx";
 import Resume from "./components/Resume.tsx";
+import Equipment from "./components/Equipment.tsx"
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: 'resume',
         element: <Resume/>
+      },
+      {
+        path: 'equipment',
+        element: <Equipment/>
       }
     ]
   }
