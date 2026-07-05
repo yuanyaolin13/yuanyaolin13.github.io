@@ -4,13 +4,13 @@ function Footer() {
   return (
     <div className='flex flex-col items-center space-y-2 w-full'>
       <div className='border-t-2 border-solid border-[rgba(58,69,69,0.25)] w-full md:w-1/2'>
-        <div className='flex flex-row items-center md:items-start space-x-2 mt-2'>
+        <div className='flex flex-row items-center md:items-start space-x-1 mt-2'>
           <ul className='text-left md:pr-4'>
             <li className='text-xs'>
-              cs student @ unc
+              SDE @ Amazon
             </li>
             <li className='text-xs'>
-              frontend dev.
+              CS/INLS @ UNC
             </li>
           </ul>
           <ul className='text-left'>

@@ -5,24 +5,24 @@ function Resume() {
     <div className='text-left flex flex-col items-center'>
       <div className='w-full flex flex-col space-y-4 md:flex-row md:space-y-0 md:max-w-2/3'>
         <div className='flex flex-col'>
-          <div className='text-lg font-bold'>Amazon</div>
-          <ol className='list-inside list-disc'>
-            <li className='flex flex-col md:flex-row md:space-y-2'>
+          <div className='text-xl md:text-lg font-bold'>Amazon</div>
+          <ol className='list-inside list-disc text-base md:text-sm'>
+            <li className='flex flex-row md:space-y-2'>
               <div className='list-item'>
                 Software Developer Engineer
               </div>
-              <div className='italic text-sm  md:ml-auto'>
+              <div className='italic ml-auto'>
                 June 2026 - present
               </div>
             </li>
             <ol className='border-l-2 p-2 ml-[0.1rem] border-[rgba(58,69,69,0.50)]'>
               Amazon Security Team!
             </ol>
-            <li className='flex flex-col md:flex-row md:space-y-2'>
+            <li className='flex flex-row md:space-y-2'>
               <div className='list-item'>
                 SWE Intern
               </div>
-              <div className='italic text-sm  md:ml-auto'>
+              <div className='italic ml-auto'>
                 May 2025 - August 2025
               </div>
             </li>
@@ -34,11 +34,11 @@ function Resume() {
               integration
               with AWS Services (Lambda, Step Functions, DynamoDB, Cloudformation, etc.).
             </ol>
-            <li className='flex flex-col md:flex-row md:space-y-2'>
+            <li className='flex flex-row md:space-y-2'>
               <div className='list-item'>
                 SWE Intern
               </div>
-              <div className='italic text-sm md:ml-auto'>
+              <div className='italic ml-auto'>
                 May 2024 - August 2024
               </div>
             </li>
@@ -55,7 +55,7 @@ function Resume() {
           </ol>
           <br/>
 
-          <div className='flex flex-col space-y-2 text-sm font-semibold'>
+          <div className='flex flex-col space-y-2 text-base md:text-sm font-semibold'>
             <p>Languages: Java, Rust, Python, JavaScript, HTML/CSS, C, LaTeX, Swift</p>
             <p>Frameworks: React, JUnit, Vue, TailwindCSS, Angular, SwiftUI</p>
             <p>Developer Tools: Vim, Git, Docker, AWS, Visual Studio Code, IntelliJ</p>
