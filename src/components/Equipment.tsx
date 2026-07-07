@@ -1,4 +1,5 @@
 import 'react'
+import {Link} from "react-router-dom";
 import Mac from '../assets/mac.png';
 import PC from '../assets/pc.png';
 import Server from '../assets/server.png';
@@ -71,7 +72,10 @@ function Equipment() {
                     The newest addition to my equipment and one of the reasons why this page even
                     exists! Hosting an i7 8700k and 48GB of RAM, it is a project that I have been
                     working on for over a month. I was able to get all of the parts second hand for
-                    quite cheap and has been running my VMs and modded Minecraft servers smoothly.
+                    quite cheap and has been running my VMs and modded Minecraft servers smoothly. This build was also largely inspired by one of my favorite YouTubers,&nbsp;
+                   <Link className='text-blue-800 underline'
+                    to='https://www.youtube.com/c/GreenHamGaming/'>Green Ham Gaming
+                    </Link>, as it was an attempt to breathe new life into an old, yet capable, build.
                   </div>
                 </div>
               </div>
